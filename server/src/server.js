@@ -10,7 +10,7 @@ const { loadLaunchData } = require('./models/launches.model');
 
 const PORT = process.env.PORT || 8000;
 
-const mongoUrl = process.env.MONGO_URL
+const mongoUrl = 'mongodb+srv://nodejsapi:Idqo6G40bMVrQvOC@cluster0.77smfew.mongodb.net/?retryWrites=true&w=majority';
 
 const server = http.createServer(app);
 
